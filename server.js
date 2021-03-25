@@ -53,6 +53,6 @@ app.get("/api/paintings/:paintingName", (request, response)=> {
  } 
 })
 
-app.listen(process.env.PORT || PORT, () => {
+app.listen(process.env.PORT || PORT, ()=>{
  console.log(`server is running on port ${PORT}`)
-})
+}) 
